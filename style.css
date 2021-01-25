@@ -1,0 +1,407 @@
+* {
+  box-sizing: border-box;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Franklin", helvetica, sans-serif;
+}
+
+
+p {
+  margin: 0 8px;
+}
+
+i {
+  color: black;
+}
+
+a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#cta {
+  color: black;
+  cursor: pointer;
+}
+
+#dig {
+  font-weight: 800;
+}
+
+#subscribe-cta {
+  color: rgb(50, 104, 145);
+}
+
+#read-comments-btn {
+  width: 100%;
+  background-color: rgb(86,123,149);
+  border: 1px solid rgb(50,104,145);
+  text-transform: uppercase;
+  padding: 5px 0px;
+  font-weight: 600;
+  font-family:  helvetica;
+  color: white;
+  text-align: center;
+}
+
+#link-svg-container{
+  display: flex;
+}
+
+svg {
+  background-color: #eee;
+  border: 1px solid #eee;
+  border-radius: 100%;
+  padding: 5px;
+  height: 27px;
+  width: 27px;
+  margin: 16px;
+  /*margin-right: 16px;*/
+}
+
+#bookmark-svg {
+  background-color: white;
+  border: none;
+  height: 30px;
+  width: 30px;
+}
+
+h1 {
+  margin-left: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  margin: 16px;
+}
+
+#link-list-bottom li {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.theory-of-inflation_desc {
+  color: #666;
+  font-family: "Libre Franklin", georgia, serif;
+  font-weight: 400;
+}
+
+#caption-container {
+  margin: 16px;
+}
+
+#caption {
+  color: #666;
+}
+
+#caption-credit {
+  color: #668;
+  margin-left: 8px;
+}
+
+#bicep2-footnote-container {
+  margin: 16px;
+}
+
+#bicep2-caption {
+  color: #666;
+}
+
+#bicep2-caption-credit {
+  color: #668;
+  margin-left: 8px;
+}
+
+#video-caption-container {
+  margin: 8px;
+}
+
+#video-caption {
+  font-family: georgia,'times new roman',serif;
+  font-size: 0.9rem;
+  line-height: 1.125rem;
+}
+
+#video-caption-credit {
+  color: #666;
+  font-family: georgia,'times new roman',serif;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 200;
+}
+
+#inflation-theory {
+  margin-top: 20px;
+  width: 100%;
+  height: 1000px;
+}
+
+#inflation-theory-container {
+  position: relative;
+}
+
+#universe-container {
+  position: absolute;
+  top: 24%;
+  left: 0;
+  width: 150px;
+  height: 105px;
+  font-size: 13px;
+  z-index: 5;
+}
+
+#not-enough-time-container {
+  position: absolute;
+  top: 24%;
+  left: 26%;
+  width: 150px;
+  height: 105px;
+  font-size: 13px;
+  z-index: 5;
+}
+
+#distant-coffee-container {
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  width: 150px;
+  height: 105px;
+  font-size: 13px;
+  z-index: 5;
+}
+
+#coffee-everywhere-container {
+  position: absolute;
+  top: 24%;
+  left: 75%;
+  width: 150px;
+  height: 105px;
+  font-size: 13px;
+  z-index: 5;
+}
+
+#still-not-container {
+  position: absolute;
+  top: 71%;
+  left: 0;
+  width: 150px;
+  height: 105px;
+  font-size: 13px;
+  z-index: 5;
+}
+
+#inflation-container {
+  position: absolute;
+  top: 71%;
+  left: 26%;
+  width: 150px;
+  height: 105px;
+  font-size: 13px;
+  z-index: 5;
+}
+
+#flucuation-container {
+  position: absolute;
+  top: 71%;
+  left: 50%;
+  width: 150px;
+  height: 105px;
+  font-size: 13px;
+  z-index: 5;
+}
+
+#expansion-container {
+  position: absolute;
+  top: 71%;
+  left: 75%;
+  width: 150px;
+  height: 105px;
+  font-size: 13px;
+  z-index: 5;
+}
+
+#theory-of-inflation-line {
+  border-top: 1px solid black;
+  width: 20%;
+}
+
+#theory-of-inflation-authors {
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.inflation-imgs-title {
+  font-weight: 600;
+}
+
+#copyright-above-links {
+  text-align: center;
+}
+
+.author-name {
+  color: #333;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#article-author-container, #article-date-container {
+  margin: 16px;
+}
+
+#article-date-container {
+  font-size: 12px;
+}
+
+#main-photo {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#nyt-logo1 {
+  width: 220px;
+  height: 25px;
+}
+
+#nyt-logo2 {
+  width: 220px;
+  height: 25px;
+}
+
+#flex-nav {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  margin: 12px;
+}
+
+#cta {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-decoration: none;
+  font-size: 10px;
+  color: rgb(50, 104, 145);
+  margin-right: 16px;
+}
+
+.cta-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-line {
+  padding-top: 10px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  width: 72px;
+  margin: 0px auto 18px;
+}
+
+#nyt-logo-bottom-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #ddd;
+  margin: 0 10px;
+}
+
+#homepage {
+  color: rgb(50, 104, 145);
+}
+
+#headline {
+  color: #121212;
+  font-family: 'georgia','times new roman', 'serif';
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.6375rem;
+  line-height: 2.25rem;
+  margin-top: 20px;
+  width: calc(100% - 40px);
+  max-width: 600px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.ad {
+  margin: 40px 0;
+}
+
+#article-ending-footer {
+  font-family: "Libre Franklin", helvetica, arial, sans-serif;
+    font-size: 11px;
+    line-height: 1rem;
+    width: calc(100% - 40px);
+    max-width: 600px;
+    margin: 20px 5px;
+    color: rgb(102, 102, 102);
+}
+
+#article-ending-footer a {
+  text-decoration: underline;
+  margin-left: 2px;
+}
+
+#article-ending-footer a:hover {
+  text-decoration: underline;
+}
+
+#share-links-row {
+  display: flex;
+}
+
+#link-row-1, #link-row-2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+}
+
+#link-row-2 {
+  margin-left: 20px;
+}
+
+#link-row-1 a:hover {
+  text-decoration: underline;
+}
+
+#link-row-2 a:hover {
+  text-decoration: underline;
+}
+
+#copyright-above-links {
+  padding: 16px;
+  font-size: 10px;
+}
+
+#fixed-footer-container {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  border-top: 2px solid black;
+  padding: 16px;
+}
+
+#fixed-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+}
+
+#up-arrow-container {
+  display: flex;
+  align-items: flex-end;
+}
