@@ -7,4 +7,6 @@ Mobile First / only design
 
 [Odin Project](https://theodinproject.com/courses/html-and-css/lessons/positioning-and-floating-elements)
 
+[Live Link](https://jdegand.github.io/odin-project-positioning-and-floating-elements/)
+
 ![Screenshot](screenshot.png)
